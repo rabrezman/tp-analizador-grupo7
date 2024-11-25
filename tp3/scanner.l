@@ -30,6 +30,6 @@ escribir {return (ESCRIBIR);}
 {constante} {return (CONSTANTE);}
 "\n" { }
 <<EOF>> {return (FDT);}
-. {yyerror("ERROR LEXICO, el caracter utilizado no pertenece al lenguaje\n"); return 0;}
+. {yyerror("error lexico, el caracter utilizado no pertenece al lenguaje\n"); return 0;}
 
 %%
